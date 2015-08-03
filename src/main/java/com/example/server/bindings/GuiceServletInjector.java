@@ -10,6 +10,7 @@ public class GuiceServletInjector extends GuiceServletContextListener {
         return Guice.createInjector(new GuiceManagedDependenciesModule(),
                 new GuiceRestServicesConfigModule(),
                 new GuiceSoapServicesConfigModule(),
-                new GuiceCxfRestServicesConfigModule());
+                new GuiceCxfRestServicesConfigModule(),
+                new GuiceWsServicesConfigModule());
     }
 }
