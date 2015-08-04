@@ -9,6 +9,6 @@ public class HelloFromSoapServiceImpl implements HelloFromSoapService {
 
     @Override
     public String sayHelloFromSoap(final String msg) {
-        return "Hello from SOAP: "+msg;
+        return "Hello from SOAP: " + msg;
     }
 }
